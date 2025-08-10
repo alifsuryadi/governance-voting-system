@@ -1,0 +1,25 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: dao-governance-v2
+            expected-sender: ST6CNKYDESYCXQ1AQT2DWH56NFS76RB9SHHF6H3H
+            cost: 128540
+            path: "contracts\\dao-governance.clar"
+            anchor-block-only: true
+            clarity-version: 2
+        - contract-publish:
+            contract-name: governance-token-v2
+            expected-sender: ST6CNKYDESYCXQ1AQT2DWH56NFS76RB9SHHF6H3H
+            cost: 57280
+            path: "contracts\\governance-token.clar"
+            anchor-block-only: true
+            clarity-version: 2
+      epoch: "2.4"
