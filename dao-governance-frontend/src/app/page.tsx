@@ -47,7 +47,6 @@ export default async function HomePage() {
   }
 
   const recentProposals = proposals.slice(0, 3);
-  const activeProposals = proposals.filter((p) => !p.executed);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">

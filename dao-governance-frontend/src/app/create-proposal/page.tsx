@@ -3,11 +3,7 @@
 import { useState, useEffect } from "react";
 import { useStacks } from "../../../hooks/use-stacks";
 import { getGovernanceInfo, GovernanceInfo } from "../../../lib/contract-utils";
-import {
-  formatSpt,
-  parseSpt,
-  isValidStacksAddress,
-} from "../../../lib/stx-utils";
+import { formatSpt, isValidStacksAddress } from "../../../lib/stx-utils";
 import {
   PlusCircle,
   AlertCircle,
@@ -331,7 +327,7 @@ export default function CreateProposalPage() {
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
                 rows={6}
-                className={`input-field ${
+                className={`input-field w-full ${
                   errors.description ? "border-red-500" : ""
                 }`}
                 placeholder="Provide a detailed description of your proposal, including rationale, implementation details, and expected outcomes..."
