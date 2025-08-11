@@ -50,8 +50,8 @@ Create `.env.local` file in the root directory:
 
 ```bash
 # Contract Addresses (UPDATE WITH YOUR DEPLOYED CONTRACTS)
-NEXT_PUBLIC_GOVERNANCE_TOKEN_CONTRACT=ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.governance-token-v2
-NEXT_PUBLIC_DAO_GOVERNANCE_CONTRACT=ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.dao-governance-v2
+NEXT_PUBLIC_GOVERNANCE_TOKEN_CONTRACT=ST6CNKYDESYCXQ1AQT2DWH56NFS76RB9SHHF6H3H.governance-token-v2
+NEXT_PUBLIC_DAO_GOVERNANCE_CONTRACT=ST6CNKYDESYCXQ1AQT2DWH56NFS76RB9SHHF6H3H.dao-governance-v2
 
 # Network Configuration
 NEXT_PUBLIC_NETWORK=testnet
@@ -536,7 +536,7 @@ SOFTWARE.
 
 - [Stacks Discord](https://discord.gg/stacks) - Community support
 - [Stacks Forum](https://forum.stacks.org) - Technical discussions
-- [GitHub Issues](https://github.com/your-repo/issues) - Bug reports
+- [GitHub Issues](https://github.com/alifsuryadi/governance-voting-system/issues) - Bug reports
 - [Stacks Explorer](https://explorer.hiro.so) - Blockchain explorer
 
 ---
